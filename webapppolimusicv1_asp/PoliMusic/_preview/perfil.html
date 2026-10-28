@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#070B14">
+<title>
+Mi perfil &middot; 
+PoliMusic</title>
+<link rel="icon" href="
+/PoliMusic/
+assets/img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="
+/PoliMusic/css/style.css">
+
+
+</head>
+<body class="app">
+<a class="skip-link" href="#content">Ir al contenido</a>
+<div class="shell">
+
+  <!-- ============================ BARRA LATERAL ============================ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <a class="brand-link" href="
+/PoliMusic/home.asp" title="
+PoliMusic">
+        <span class="brand-mark">
+<svg class="ico ico-music" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9 18.2V6.4l10-2v11.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.6" cy="18.2" r="2.6" stroke="currentColor" stroke-width="1.8"/><circle cx="16.6" cy="15.8" r="2.6" stroke="currentColor" stroke-width="1.8"/></svg></span>
+        <span class="brand-text">
+          <span class="brand-name">
+PoliMusic</span>
+          <span class="brand-tag">M&uacute;sica en l&iacute;nea</span>
+        </span>
+      </a>
+      <button type="button" class="icon-btn sidebar-close" data-sidebar-close aria-label="Cerrar menu">
+<svg class="ico ico-close" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </div>
+
+    <nav class="nav" aria-label="Navegacion principal">
+      <a class="nav-item 
+" href="
+/PoliMusic/home.asp">
+        
+<svg class="ico ico-home" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M3 10.2 12 3l9 7.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 9.6V20a1 1 0 0 0 1 1h3.2v-5.6h4.6V21h3.2a1 1 0 0 0 1-1V9.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Inicio</span>
+      </a>
+      <a class="nav-item 
+" href="
+/PoliMusic/search.asp">
+        
+<svg class="ico ico-search" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.3" stroke="currentColor" stroke-width="1.9"/><path d="m15.6 15.6 4.4 4.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg><span>Buscar</span>
+      </a>
+      <a class="nav-item 
+" href="
+/PoliMusic/library.asp">
+        
+<svg class="ico ico-library" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 4h2.6v16H4zM9.2 4h2.6v16H9.2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m15.4 5.1 2.5-.6 4 14.2-2.5.7z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span>Tu biblioteca</span>
+      </a>
+      <a class="nav-item 
+" href="
+/PoliMusic/albums.asp">
+        
+<svg class="ico ico-album" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="2.4" stroke="currentColor" stroke-width="1.8"/></svg><span>Albumes</span>
+      </a>
+      <a class="nav-item 
+" href="
+/PoliMusic/artists.asp">
+        
+<svg class="ico ico-artist" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="12" cy="8.4" r="3.8" stroke="currentColor" stroke-width="1.8"/><path d="M4.8 20.2a7.4 7.4 0 0 1 14.4 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Artistas</span>
+      </a>
+      <a class="nav-item 
+" href="
+/PoliMusic/songs.asp">
+        
+<svg class="ico ico-music" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9 18.2V6.4l10-2v11.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.6" cy="18.2" r="2.6" stroke="currentColor" stroke-width="1.8"/><circle cx="16.6" cy="15.8" r="2.6" stroke="currentColor" stroke-width="1.8"/></svg><span>Canciones</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-sep"></div>
+
+    <div class="sidebar-head">
+      <span class="sidebar-title">
+<svg class="ico ico-playlist" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 6h9M4 11h9M4 16h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M16.5 18.4V8.6l4.5-1v8.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="14.6" cy="18.4" r="2" stroke="currentColor" stroke-width="1.7"/></svg> Tus playlists</span>
+      <a class="icon-btn" href="
+/PoliMusic/playlist.asp?action=new" title="Crear playlist">
+<svg class="ico ico-plus" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+    </div>
+
+    <div class="sidebar-scroll">
+      <ul class="side-list">
+
+
+        <li>
+          <a class="side-item" href="
+/PoliMusic/playlist.asp?id=
+5" title="
+Playlist 5">
+            <img class="side-thumb" src="
+/PoliMusic/assets/playlistImages/Playlist4.png" alt="" loading="lazy">
+            <span class="side-item-body">
+              <span class="side-item-title">
+Playlist 5</span>
+              <span class="side-item-sub">
+Publica</span>
+            </span>
+          </a>
+        </li>
+
+
+        <li>
+          <a class="side-item" href="
+/PoliMusic/playlist.asp?id=
+3" title="
+Playlist 3">
+            <img class="side-thumb" src="
+/PoliMusic/assets/playlistImages/Playlist2.png" alt="" loading="lazy">
+            <span class="side-item-body">
+              <span class="side-item-title">
+Playlist 3</span>
+              <span class="side-item-sub">
+Publica</span>
+            </span>
+          </a>
+        </li>
+
+
+        <li>
+          <a class="side-item" href="
+/PoliMusic/playlist.asp?id=
+2" title="
+Playlist 2">
+            <img class="side-thumb" src="
+/PoliMusic/assets/playlistImages/playlist1.png" alt="" loading="lazy">
+            <span class="side-item-body">
+              <span class="side-item-title">
+Playlist 2</span>
+              <span class="side-item-sub">
+Publica</span>
+            </span>
+          </a>
+        </li>
+
+
+      </ul>
+
+
+
+    </div>
+  </aside>
+  <div class="sidebar-backdrop" data-sidebar-close></div>
+
+  <!-- ============================== CONTENIDO ============================== -->
+  <div class="main-wrap">
+    <header class="topbar">
+      <button type="button" class="icon-btn sidebar-open" data-sidebar-open aria-label="Abrir menu">
+<svg class="ico ico-queue" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 7h11M4 12h11M4 17h7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="18.5" cy="16" r="2.6" stroke="currentColor" stroke-width="1.7"/><path d="M21.1 16V9.4l-4.4 1.1" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <div class="hist-nav">
+        <button type="button" class="icon-btn" onclick="history.back()" aria-label="Atras">
+<svg class="ico ico-chevron-left" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m14.5 5.5-7 6.5 7 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button type="button" class="icon-btn" onclick="history.forward()" aria-label="Adelante">
+<svg class="ico ico-chevron-right" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m9.5 5.5 7 6.5-7 6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+
+      <form class="topbar-search" action="
+/PoliMusic/search.asp" method="get" role="search">
+        <span class="search-ico">
+<svg class="ico ico-search" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.3" stroke="currentColor" stroke-width="1.9"/><path d="m15.6 15.6 4.4 4.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span>
+        <input type="search" name="q" id="globalSearch" value="
+" placeholder="Que quieres escuchar?" autocomplete="off" aria-label="Buscar">
+      </form>
+
+      <div class="topbar-right">
+        <a class="btn btn-ghost btn-sm topbar-new" href="
+/PoliMusic/playlist.asp?action=new">
+<svg class="ico ico-plus" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Crear playlist</span></a>
+        <div class="usermenu" data-usermenu>
+          <button type="button" class="usermenu-btn" data-usermenu-toggle aria-haspopup="true" aria-expanded="false">
+            <img class="avatar" src="
+/PoliMusic/assets/userImages/default.jpg" alt="">
+            <span class="usermenu-name">
+epn.fis</span>
+            
+<svg class="ico ico-chevron-down" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m5.5 9.5 6.5 7 6.5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="usermenu-panel" data-usermenu-panel role="menu">
+            <div class="usermenu-head">
+              <img class="avatar avatar-lg" src="
+/PoliMusic/assets/userImages/default.jpg" alt="">
+              <div>
+                <div class="usermenu-title">
+epn.fis</div>
+                <div class="usermenu-sub">
+epn.fis@epn.edu.ec</div>
+                <span class="badge 
+badge-user">
+USER</span>
+              </div>
+            </div>
+            <a class="usermenu-item" href="
+/PoliMusic/profile.asp" role="menuitem">
+<svg class="ico ico-user" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="12" cy="8.5" r="3.6" stroke="currentColor" stroke-width="1.8"/><path d="M5.2 20a7 7 0 0 1 13.6 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Mi perfil</a>
+            <a class="usermenu-item" href="
+/PoliMusic/library.asp" role="menuitem">
+<svg class="ico ico-library" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 4h2.6v16H4zM9.2 4h2.6v16H9.2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m15.4 5.1 2.5-.6 4 14.2-2.5.7z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg> Mis playlists</a>
+
+
+            <div class="usermenu-sep"></div>
+            <a class="usermenu-item usermenu-danger" href="
+/PoliMusic/logout.asp" role="menuitem">
+<svg class="ico ico-logout" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M14.5 8V6.2a2 2 0 0 0-2-2H6.2a2 2 0 0 0-2 2v11.6a2 2 0 0 0 2 2h6.3a2 2 0 0 0 2-2V16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.4 12h9.4m0 0-2.8-2.8M19.8 12l-2.8 2.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Cerrar sesion</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content" id="content">
+
+
+
+
+
+<div class="page-head">
+  <div>
+    <h1 class="page-title">Mi perfil</h1>
+    <p class="page-sub">Administra tu informaci&oacute;n personal y tu contrase&ntilde;a.</p>
+  </div>
+</div>
+
+
+
+
+<div class="grid grid-2">
+  <section class="panel">
+    <div class="panel-head"><span class="panel-title">
+<svg class="ico ico-user" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><circle cx="12" cy="8.5" r="3.6" stroke="currentColor" stroke-width="1.8"/><path d="M5.2 20a7 7 0 0 1 13.6 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Datos personales</span></div>
+    <div class="panel-body">
+      <div class="hstack mb-3">
+        <img class="avatar avatar-lg" src="
+/PoliMusic/assets/userImages/default.jpg" alt="">
+        <div>
+          <div class="strong">
+epn.fis</div>
+          <span class="badge 
+badge-user">
+USER</span>
+        </div>
+      </div>
+
+      <form method="post" action="
+/PoliMusic/profile.asp">
+        <input type="hidden" name="form" value="datos">
+        <div class="form-grid">
+          <div class="field">
+            <label class="label" for="username">Usuario</label>
+            <input class="input" type="text" id="username" value="
+epn.fis" readonly>
+            <span class="hint">El nombre de usuario no se puede cambiar.</span>
+          </div>
+          <div class="field">
+            <label class="label" for="email">Correo electr&oacute;nico <span class="req">*</span></label>
+            <input class="input" type="email" id="email" name="email" maxlength="50" value="
+epn.fis@epn.edu.ec" required>
+          </div>
+          <div class="field">
+            <label class="label" for="birthday">Fecha de nacimiento</label>
+            <input class="input" type="date" id="birthday" name="birthday" value="
+2000-12-12">
+          </div>
+          <div class="field">
+            <label class="label">Playlists creadas</label>
+            <input class="input" type="text" value="
+0" readonly>
+          </div>
+
+
+<div class="field field-full">
+  <label class="label" for="
+userPhoto">
+Foto de perfil</label>
+  <div class="hstack-tight">
+    <input class="input" type="text" id="
+userPhoto" name="
+userPhoto" value="
+~/userImages/default.jpg"
+           placeholder="
+~/albumImages/portada.png" data-file-input="
+userPhoto">
+    <button type="button" class="btn btn-secondary btn-sm" data-modal-open="modalPick_
+userPhoto">
+<svg class="ico ico-upload" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 16.5V4.8m0 0L7.6 9.2M12 4.8l4.4 4.4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.6 15.4v2.8a1.6 1.6 0 0 0 1.6 1.6h11.6a1.6 1.6 0 0 0 1.6-1.6v-2.8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg> Elegir</button>
+  </div>
+  <span class="hint">Ruta relativa al directorio de recursos. Ejemplo: <code>
+~/albumImages/portada.png</code></span>
+</div>
+
+<div class="modal" id="modalPick_
+userPhoto">
+  <div class="modal-box modal-box-lg">
+    <div class="modal-head">
+      <h3 class="modal-title">Seleccionar archivo &middot; 
+userImages</h3>
+      <button type="button" class="icon-btn" data-modal-close aria-label="Cerrar">
+<svg class="ico ico-close" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="modal-body">
+
+
+      <div class="pick-grid">
+<button type="button" class="pick-item" data-pick="~/userImages/default.jpg"><img src="/PoliMusic/assets/userImages/default.jpg" alt="" loading="lazy"><span>default.jpg</span></button><button type="button" class="pick-item" data-pick="~/userImages/root.png"><img src="/PoliMusic/assets/userImages/root.png" alt="" loading="lazy"><span>root.png</span></button><button type="button" class="pick-item" data-pick="~/userImages/username1.png"><img src="/PoliMusic/assets/userImages/username1.png" alt="" loading="lazy"><span>username1.png</span></button></div>
+
+
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn btn-secondary" data-modal-close>Cerrar</button>
+    </div>
+  </div>
+</div>
+
+
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">
+<svg class="ico ico-check" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="m5 12.8 4.6 4.4L19 6.8" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/></svg> Guardar cambios</button>
+          <a class="btn btn-ghost" href="
+/PoliMusic/home.asp">Cancelar</a>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><span class="panel-title">
+<svg class="ico ico-lock" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><rect x="5" y="10.4" width="14" height="9.6" rx="1.8" stroke="currentColor" stroke-width="1.8"/><path d="M8.4 10.4V8a3.6 3.6 0 0 1 7.2 0v2.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Cambiar contrase&ntilde;a</span></div>
+    <div class="panel-body">
+      <form method="post" action="
+/PoliMusic/profile.asp">
+        <input type="hidden" name="form" value="password">
+        <div class="form-grid">
+          <div class="field field-full">
+            <label class="label" for="passActual">Contrase&ntilde;a actual <span class="req">*</span></label>
+            <input class="input" type="password" id="passActual" name="passActual" maxlength="50" autocomplete="current-password" required>
+          </div>
+          <div class="field">
+            <label class="label" for="passNueva">Nueva contrase&ntilde;a <span class="req">*</span></label>
+            <input class="input" type="password" id="passNueva" name="passNueva" maxlength="50" autocomplete="new-password" required>
+          </div>
+          <div class="field">
+            <label class="label" for="passNueva2">Repetir nueva <span class="req">*</span></label>
+            <input class="input" type="password" id="passNueva2" name="passNueva2" maxlength="50" autocomplete="new-password" required>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">
+<svg class="ico ico-shield" width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 3.4 19 6v5.6c0 4.2-2.9 7.5-7 9-4.1-1.5-7-4.8-7-9V6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m9 12 2.2 2.2L15.4 10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Actualizar contrase&ntilde;a</button>
+        </div>
+      </form>
+      <div class="alert alert-info mt-3" style="margin-bottom:0">
+        <span class="alert-ico">i</span>
+        <span>Las contrase&ntilde;as se guardan cifradas con <strong>SHA-1</strong> en la base de datos. El rol de la cuenta solo puede modificarlo un administrador.</span>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+    </main>
+  </div>
+</div>
+
+<!-- ============================ REPRODUCTOR ============================ -->
+<div class="playerbar" id="playerbar">
+  <div class="pb-left">
+    <div class="pb-cover">
+      <img id="pbCover" src="
+/PoliMusic/
+assets/img/fallback-cover.svg" alt="">
+      <span class="pb-cover-empty">
+<svg class="ico ico-music" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9 18.2V6.4l10-2v11.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.6" cy="18.2" r="2.6" stroke="currentColor" stroke-width="1.8"/><circle cx="16.6" cy="15.8" r="2.6" stroke="currentColor" stroke-width="1.8"/></svg></span>
+    </div>
+    <div class="pb-meta">
+      <a class="pb-title" id="pbTitle" href="#">Sin reproduccion</a>
+      <a class="pb-artist" id="pbArtist" href="#">Selecciona una cancion</a>
+    </div>
+    <button type="button" class="icon-btn pb-like" id="pbLike" title="Me gusta" aria-pressed="false">
+<svg class="ico ico-heart" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 20s-7.5-4.6-7.5-9.6A4.4 4.4 0 0 1 12 7.6a4.4 4.4 0 0 1 7.5 2.8C19.5 15.4 12 20 12 20Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></button>
+  </div>
+
+  <div class="pb-center">
+    <div class="pb-controls">
+      <button type="button" class="icon-btn" id="pbShuffle" title="Aleatorio" aria-pressed="false">
+<svg class="ico ico-shuffle" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M17 4.5 20.5 8 17 11.5M17 12.5 20.5 16 17 19.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.5 8h3.2c1.6 0 2.6 1 3.6 2.4m0 3.2c-1 1.4-2 2.4-3.6 2.4H3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M13.6 10.4c1-1.4 2-2.4 3.4-2.4h3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+      <button type="button" class="icon-btn" id="pbPrev" title="Anterior">
+<svg class="ico ico-prev" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M18 5.7v12.6a.7.7 0 0 1-1.1.6l-9-6.3a.7.7 0 0 1 0-1.2l9-6.3a.7.7 0 0 1 1.1.6Z" fill="currentColor"/><path d="M4.5 5h2.1v14H4.5z" fill="currentColor"/></svg></button>
+      <button type="button" class="pb-play" id="pbPlay" title="Reproducir">
+<svg class="ico ico-play" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M8 5.4v13.2a.8.8 0 0 0 1.2.7l10.4-6.6a.8.8 0 0 0 0-1.4L9.2 4.7A.8.8 0 0 0 8 5.4Z" fill="currentColor"/></svg></button>
+      <button type="button" class="icon-btn" id="pbNext" title="Siguiente">
+<svg class="ico ico-next" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M6 5.7v12.6a.7.7 0 0 0 1.1.6l9-6.3a.7.7 0 0 0 0-1.2l-9-6.3A.7.7 0 0 0 6 5.7Z" fill="currentColor"/><path d="M17.4 5h2.1v14h-2.1z" fill="currentColor"/></svg></button>
+      <button type="button" class="icon-btn" id="pbRepeat" title="Repetir" aria-pressed="false">
+<svg class="ico ico-repeat" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M6.5 8.5h9.8l-2.4-2.6M17.5 15.5H7.7l2.4 2.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 11.2V10a2 2 0 0 0-2-2h-.6M4 12.8V14a2 2 0 0 0 2 2h.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="pb-progress">
+      <span class="pb-time" id="pbCur">0:00</span>
+      <input type="range" class="seek" id="pbSeek" min="0" max="100" value="0" step="1" aria-label="Posicion">
+      <span class="pb-time" id="pbDur">0:00</span>
+    </div>
+  </div>
+
+  <div class="pb-right">
+    <button type="button" class="icon-btn" id="pbQueueBtn" title="Cola de reproduccion">
+<svg class="ico ico-queue" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 7h11M4 12h11M4 17h7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="18.5" cy="16" r="2.6" stroke="currentColor" stroke-width="1.7"/><path d="M21.1 16V9.4l-4.4 1.1" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <button type="button" class="icon-btn" id="pbMute" title="Silenciar">
+<svg class="ico ico-volume" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 9.5h3.2L12 5.4v13.2l-4.8-4.1H4z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M15.4 9.2a4 4 0 0 1 0 5.6M18.2 6.6a7.6 7.6 0 0 1 0 10.8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button>
+    <input type="range" class="vol" id="pbVol" min="0" max="100" value="80" step="1" aria-label="Volumen">
+  </div>
+</div>
+
+<!-- ============================== COLA ============================== -->
+<aside class="queuepanel" id="queuepanel" aria-hidden="true">
+  <div class="queuepanel-head">
+    <span>Cola de reproduccion</span>
+    <button type="button" class="icon-btn" id="pbQueueClose" aria-label="Cerrar">
+<svg class="ico ico-close" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  </div>
+  <div class="queuepanel-body" id="queueList"><p class="muted">La cola esta vacia.</p></div>
+</aside>
+
+<audio id="pmAudio" preload="metadata"></audio>
+
+<script>
+window.PM = window.PM || {};
+PM.appRoot = 
+"\/PoliMusic\/";
+PM.assets  = 
+"\/PoliMusic\/assets\/";
+PM.user    = { id: 
+4, name: 
+"epn.fis", admin: 
+false };
+</script>
+<script src="
+/PoliMusic/js/app.js"></script>
+<div style="position:fixed;left:0;right:0;bottom:0;z-index:9999;
+background:#0B1220;border-top:1px solid #2E7DFF;color:#A9B8D6;font:12px/1.6 'Segoe UI',sans-serif;
+padding:6px 14px;text-align:center">
+<strong style="color:#4F97FF">Vista previa estatica de PoliMusic</strong> &middot;
+pagina: profile.asp &middot; renderizada por el motor ASP real &middot;
+los formularios y la reproduccion requieren IIS con ASP clasico
+</div>
+</body>
+</html>
+
+
+
