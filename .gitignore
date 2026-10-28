@@ -1,3 +1,6 @@
 .vs
 .workbuddy-ai
 _capturas
+bin
+obj
+*.csproj.user
