@@ -4,3 +4,4 @@ _capturas
 bin
 obj
 *.csproj.user
+/packages
